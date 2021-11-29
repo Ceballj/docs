@@ -879,7 +879,7 @@ URL: https://deploy.mendix.com/api/1/apps/<AppId>/environments/<Mode>/scale
 **Example Request**
 
 ```bash
-POST /api/1/apps/calc/environments/acceptance/scale/0c982ca3-621f-40e9-9c6e-96492934170a
+POST /api/1/apps/calc/environments/acceptance/scale
 Host: deploy.mendix.com
 
 Content-Type: application/json
@@ -887,8 +887,8 @@ Mendix-Username: richard.ford51@example.com
 Mendix-ApiKey:  26587896-1cef-4483-accf-ad304e2673d6
 
 {
-	Instances: 2,
-	MemoryPerInstance: 2048,
+	"Instances": 2,
+	"MemoryPerInstance": 2048
 }
 ```
 
