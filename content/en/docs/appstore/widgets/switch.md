@@ -38,6 +38,10 @@ Features:
 
 To use this widget, place it in the context of an object that has a Boolean attribute.
 
-## 4 Read More
+## 4 v3 Breaking change
+
+When upgrading to version 3.0.0 (or above) from a previous version (2.1.3 or below) the microflow associated with the On-Change event disappears. This is due to Widget definition (XML) change between v2 and v3.
+
+## 5 Read More
 
 * [CAB.02 - Switch](/addons/ats-addon/ht-two-cab-02-switch/)
